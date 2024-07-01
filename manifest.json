@@ -25,11 +25,24 @@
   ],
   "display_override": [
     "browser",
+    "window-controls-overlay",
+    "minimal-ui",
     "fullscreen",
-    "window-controls-overlay"
+    "standalone"
   ],
   "edge_side_panel": {
     "preferred_width": 2
   },
-  "prefer_related_applications": false
+  "prefer_related_applications": false,
+  "share_target": {
+    "method": "POST",
+    "params": {
+      "title": "a",
+      "text": "a",
+      "url": "https://jvecodev.github.io/TO_DO_LIST_JS/",
+      "files": []
+    },
+    "enctype": "https://jvecodev.github.io/TO_DO_LIST_JS/",
+    "action": "https://jvecodev.github.io/TO_DO_LIST_JS/"
+  }
 }
