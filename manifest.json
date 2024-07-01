@@ -1,0 +1,41 @@
+{
+  "background_color": "#00e6ff",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "AGENDA",
+  "orientation": "any",
+  "scope": "https://jvecodev.github.io/TO_DO_LIST_JS/",
+  "short_name": "AGND",
+  "start_url": "https://jvecodev.github.io/TO_DO_LIST_JS/",
+  "theme_color": "#003cff",
+  "icons": [
+    {
+      "src": "./favicon_io/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "id": "https://jvecodev.github.io/TO_DO_LIST_JS/",
+  "description": "Demonstre seus interesses diários e aumente sua produtividade",
+  "lang": "gu",
+  "display_override": [
+    "browser",
+    "standalone",
+    "fullscreen",
+    "minimal-ui",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "lifestyle",
+    "productivity",
+    "social"
+  ],
+  "share_target": {
+    "method": "GET",
+    "action": "https://jvecodev.github.io/TO_DO_LIST_JS/",
+    "params": {
+      "title": "/TO_DO_LIST_JS/",
+      "url": "/TO_DO_LIST_JS/",
+      "files": []
+    }
+  }
+}
