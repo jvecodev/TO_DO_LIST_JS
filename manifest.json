@@ -1,12 +1,12 @@
 {
   "background_color": "#0051ff",
-  "dir": "ltr",
+  "dir": "auto",
   "display": "standalone",
   "name": "AGENDA",
   "orientation": "any",
-  "scope": "/",
+  "scope": "{   \"background_color\": \"#0051ff\",   \"dir\": \"auto\",   \"display\": \"standalone\",   \"name\": \"AGENDA\",   \"orientation\": \"any\",   \"scope\": \"/\",   \"short_name\": \"AGND\",   \"start_url\": \"https://jvecodev.github.io/TO_DO_LIST_JS/\",   \"theme_color\": \"#ff0000\",   \"icons\": [     {       \"src\": \"./favicon_io/favicon.ico\",       \"type\": \"image/x-icon\"     }   ],   \"id\": \"Manifeste seus interesses e aumente sua \",   \"description\": \"Manifeste seus interesses e aumente sua produtividade\",   \"lang\": \"pt\",   \"categories\": [     \"lifestyle\",     \"personalization\",     \"productivity\",     \"social\"   ],   \"display_override\": [     \"browser\",     \"fullscreen\",     \"window-controls-overlay\"   ],   \"edge_side_panel\": {     \"preferred_width\": 2   },   \"prefer_related_applications\": false }",
   "short_name": "AGND",
-  "start_url": "/",
+  "start_url": "https://jvecodev.github.io/TO_DO_LIST_JS/",
   "theme_color": "#ff0000",
   "icons": [
     {
@@ -18,11 +18,18 @@
   "description": "Manifeste seus interesses e aumente sua produtividade",
   "lang": "pt",
   "categories": [
+    "lifestyle",
+    "personalization",
+    "productivity",
     "social"
   ],
   "display_override": [
     "browser",
     "fullscreen",
     "window-controls-overlay"
-  ]
+  ],
+  "edge_side_panel": {
+    "preferred_width": 2
+  },
+  "prefer_related_applications": false
 }
